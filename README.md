@@ -18,14 +18,21 @@ Since the CoT XML format has a schema of 12 required fields, the type of informa
 
 Additionally, the broader community can develop custom plug-ins for the TAK software/ecosystem that provide unique capabilities. Some examples include the broadcasting of AIS data, Remote ID (UAS ID), ADS-B, etc.
 
-# A couple screenshots
+# Some Screenshots
+
+Architecture diagram (credit to B. Wallen of OpenTAKServer):
 
 <img width="628" height="393" alt="Image" src="https://github.com/user-attachments/assets/5cf17d54-ac87-4d13-b23d-f9eebe2d0882" />
 
-* Architecture diagram (credit to B. Wallen of OpenTAKServer)
+
+OpenTAKServer WebUI:
 
 ![Image](https://github.com/user-attachments/assets/363f481d-eb7a-4385-b74e-4ebf5753d32f)
 
-*OpenTAKServer WebUI
+
+Screenshot of server-provided ADS-B aviation data stream populating into ATAK software on my Galaxy tablet EUD; verifies connection and data transmission between server/EUDs:
+
+![Image](https://github.com/user-attachments/assets/05dbae8a-51e0-4da9-ac43-e28c40b84d76)
+
 
 
