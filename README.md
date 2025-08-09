@@ -3,10 +3,11 @@
 This repository is an on-going project to learn, experiment with TAK (Team Awareness Kit) software and the CoT (Cursor-on-Target) message standard; specifically, how both can enhance digital interoperability across disaggregated entities (e.g. DoD, first responders, hikers, etc.). 
 
 * TAK is a multi-purpose, open-source geospatial application that faciliates situational awareness amongst teams
+* Additional capabilities (e.g. sUAS location/video streaming, mesh-IP radio integration, data package exchange, etc.) can be developed for TAK via custom plug-ins by the greater community of interest. These plug-ins are typically developed in Java, Kotlin, C, or C++ languages. There are currently >70 unique plug-ins for the TAK ecosystem 
 * CoT is an open-standard XML-based format for sharing real-time location and situational awareness data between devices/systems
 * Put simply, CoT messages can be exchanged across devices via CoT-compatible software, such as TAK/ATAK, and displayed on a digital map overlay (map sources can be Google Maps, ESRI, Bing, etc.) as NATO symbology (MIL-STD-2525)
 
-Having recently learned about the developmental side of TAK (through the open-source SDK) and cloud technology in general (through AWS/Azure), I decided to deploy an open-source TAK server (OpenTAKServer, developed/maintained by B. Wallen) to an Azure VM to showcase how to quickly deploy (< 1 hr) an extensible, interoperable Common Operating Picture. 
+Having recently learned about the developmental side of TAK (through the open-source SDK) and cloud technology (through AWS/Azure), I decided to deploy an open-source TAK server (OpenTAKServer, developed/maintained by B. Wallen) to an Azure VM to showcase how to quickly deploy (< 1 hr) an extensible, interoperable Common Operating Picture. 
 
 The server can be deployed on other physical hardware (e.g. Raspberry Pi); however, a cloud environment allows for quick and scalable configuration of the underlying host environment (Linux/Ubuntu in this case). With the server up and running, I was then able to connect my Galaxy tablet (running ATAK software) to the server by uploading a data package generated from the OpenTakServer WebUI. 
 
